@@ -1,0 +1,1540 @@
+{
+  "mod_elements": [
+    {
+      "name": "Icicle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "icicle_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/IcicleItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/icicle_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "IcicleHitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "icicle_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/IcicleHittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "VenossaHitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venossa_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/VenossaHittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Venossa",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "venossa_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/venossa_sword.json",
+          "src/main/java/net/setho/betterarmorymod/item/VenossaItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Spectra_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spectra_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Spectra_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Spectra",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spectra_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/spectra_sword.json",
+          "src/main/java/net/setho/betterarmorymod/item/SpectraItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "BetterArmoryTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_armory_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tidanir",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tidanir_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/TidanirItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/tidanir_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Tidanir_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidanir_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Tidanir_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "AvaritiaEmeraldSystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "avaritia_emerald_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/AvaritiaEmeraldSystemProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Avaritia",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "avaritia_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/avaritia_sword.json",
+          "src/main/java/net/setho/betterarmorymod/item/AvaritiaItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Ignitus_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignitus_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Ignitus_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Ignitus",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ignitus_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/ignitus_sword.json",
+          "src/main/java/net/setho/betterarmorymod/item/IgnitusItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Souldread",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "souldread_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/SouldreadItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/souldread_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "SouldreadHitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souldread_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/SouldreadHittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Sandryct_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sandryct_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Sandryct_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Sandryct",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sandryct_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/SandryctItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/sandryct_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Tecpatl",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tecpatl_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/tecpatl_dagger.json",
+          "src/main/java/net/setho/betterarmorymod/item/TecpatlItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Tecpatl_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tecpatl_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Tecpatl_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "GildedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gilded_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/GildedSwordItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/gilded_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "GildedGoldSystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gilded_gold_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/GildedGoldSystemProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Radiance",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "radiance_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/RadianceItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/radiance_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Radiance_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiance_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Radiance_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "SwordFish",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spear_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/SwordFishItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/spear_fish.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "SwordFish_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_fish_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/SwordFish_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Tidanir_Holding",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidanir_holding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Tidanir_HoldingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "Endslash",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "endslash_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/EndslashItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/endslash_sword.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Endslash_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endslash_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/Endslash_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "EchoSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "echo_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/echo_sword.json",
+          "src/main/java/net/setho/betterarmorymod/item/EchoSwordItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "EchoSword_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sword_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/EchoSword_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "SpectraRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectra_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/recipes/spectra_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "IgnitusRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignitus_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/recipes/ignitus_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "SouldreadRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souldread_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/recipes/souldread_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "TecpatlRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tecpatl_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/recipes/tecpatl_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "RadianceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiance_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/recipes/radiance_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "AvaritiaTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaritia_trading",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "TidanirDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidanir_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/elder_guardian.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "IcicleLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/loot_tables/chests/icicle_loot.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "EchoSwordLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sword_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/warden.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "EndslashDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endslash_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "VenossaLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venossa_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/loot_tables/chests/venossa_loot.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "SandryctLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandryct_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/loot_tables/chests/sandryct_loot.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "DragonFlame_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_flame_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/DragonFlame_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "DragonFlame",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/entity/DragonFlameEntity.java"
+        ]
+      },
+      "path": "~/Projectiles"
+    },
+    {
+      "name": "DragonFlameTexture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_flame_texture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/dragon_flame_texture.json",
+          "src/main/java/net/setho/betterarmorymod/item/DragonFlameTextureItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DragonFlame_HitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_flame_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/DragonFlame_HitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "DragonSpark",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_spark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/particles/dragon_spark.json",
+          "src/main/java/net/setho/betterarmorymod/client/particle/DragonSparkParticle.java"
+        ]
+      },
+      "path": "~/Projectiles"
+    },
+    {
+      "name": "SonicBoom",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonic_boom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/entity/SonicBoomEntity.java"
+        ]
+      },
+      "path": "~/Projectiles"
+    },
+    {
+      "name": "SonicBoomTexture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonic_boom_texture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_armory_mod/models/item/sonic_boom_texture.json",
+          "src/main/java/net/setho/betterarmorymod/item/SonicBoomTextureItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SonicBoom_Hitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonic_boom_hitting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/SonicBoom_HittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "EchoCorruption_Active",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_corruption_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/procedures/EchoCorruption_ActiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Actions"
+    },
+    {
+      "name": "EchoCorruption",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_corruption",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/potion/EchoCorruptionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "IcyPillars",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_pillars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/worldgen/structure_set/icy_pillars.json",
+          "src/main/resources/data/better_armory_mod/worldgen/structure/icy_pillars.json",
+          "src/main/resources/data/better_armory_mod/worldgen/template_pool/icy_pillars.json"
+        ]
+      },
+      "path": "~/Loot Tables/Structures"
+    },
+    {
+      "name": "JungleRuins",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_ruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/worldgen/structure_set/jungle_ruins.json",
+          "src/main/resources/data/better_armory_mod/worldgen/template_pool/jungle_ruins.json",
+          "src/main/resources/data/better_armory_mod/worldgen/structure/jungle_ruins.json"
+        ]
+      },
+      "path": "~/Loot Tables/Structures"
+    },
+    {
+      "name": "AncientFossil",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/worldgen/structure_set/ancient_fossil.json",
+          "src/main/resources/data/better_armory_mod/worldgen/template_pool/ancient_fossil.json",
+          "src/main/resources/data/better_armory_mod/worldgen/structure/ancient_fossil.json"
+        ]
+      },
+      "path": "~/Loot Tables/Structures"
+    },
+    {
+      "name": "GildedLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/loot_tables/chests/gilded_loot.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "PiglinCamp",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piglin_camp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/worldgen/template_pool/piglin_camp.json",
+          "src/main/resources/data/better_armory_mod/worldgen/structure_set/piglin_camp.json",
+          "src/main/resources/data/better_armory_mod/worldgen/structure/piglin_camp.json"
+        ]
+      },
+      "path": "~/Loot Tables/Structures"
+    },
+    {
+      "name": "IcicleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/icicle_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VenossaAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venossa_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/venossa_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Iceflake",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iceflake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/client/particle/IceflakeParticle.java",
+          "src/main/resources/assets/better_armory_mod/particles/iceflake.json"
+        ]
+      },
+      "path": "~/Projectiles"
+    },
+    {
+      "name": "Sandust",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/client/particle/SandustParticle.java",
+          "src/main/resources/assets/better_armory_mod/particles/sandust.json"
+        ]
+      },
+      "path": "~/Projectiles"
+    },
+    {
+      "name": "AvaritiaAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaritia_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/avaritia_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EchoSwordAvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sword_avancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/echo_sword_avancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EndslashAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endslash_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/endslash_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SpectraAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectra_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/spectra_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SandryctAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandryct_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/sandryct_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SwordFishAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_fish_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/sword_fish_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TidanirAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidanir_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/tidanir_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GildedAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/gilded_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BetterArmoryIconAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_armory_icon_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_armory_mod/advancements/better_armory_icon_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SwordFishLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_fish_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/gameplay/treasure.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "BetterArmoryIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_armory_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/setho/betterarmorymod/item/BetterArmoryIconItem.java",
+          "src/main/resources/assets/better_armory_mod/models/item/better_armory_icon.json"
+        ]
+      },
+      "path": "~/Other"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "freeze_hit",
+      "files": [
+        "freeze_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "freezing"
+    },
+    {
+      "name": "spectra_hit",
+      "files": [
+        "spectra_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Spectra Hitting"
+    },
+    {
+      "name": "ignitus_hit",
+      "files": [
+        "ignitus_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Ignitus Burn"
+    },
+    {
+      "name": "sandryct_hit",
+      "files": [
+        "sandryct_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Sandryct Dust"
+    },
+    {
+      "name": "tidanir_hit",
+      "files": [
+        "tidanir_hit"
+      ],
+      "category": "player",
+      "subtitle": "Tidanir Splash"
+    },
+    {
+      "name": "venossa_hit",
+      "files": [
+        "venossa_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Venossa Spine"
+    },
+    {
+      "name": "radiance_hit",
+      "files": [
+        "radiance_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Radiance Sparkle"
+    },
+    {
+      "name": "swordfish_hit",
+      "files": [
+        "fishsword_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "SwordFish Bubbles"
+    },
+    {
+      "name": "endslash_hit",
+      "files": [
+        "endslash_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Endslash Impact"
+    },
+    {
+      "name": "echo_hit",
+      "files": [
+        "echo_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Echo Impact"
+    },
+    {
+      "name": "dragonflame_hit",
+      "files": [
+        "dragonflame_hit"
+      ],
+      "category": "neutral",
+      "subtitle": "Dragon Flame Explosion"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EchoSword",
+      "~CUSTOM:Endslash",
+      "~CUSTOM:SwordFish",
+      "~CUSTOM:Radiance",
+      "~CUSTOM:GildedSword",
+      "~CUSTOM:Tecpatl",
+      "~CUSTOM:Sandryct",
+      "~CUSTOM:Souldread",
+      "~CUSTOM:Ignitus",
+      "~CUSTOM:Avaritia",
+      "~CUSTOM:Tidanir",
+      "~CUSTOM:Spectra",
+      "~CUSTOM:Venossa",
+      "~CUSTOM:Icicle"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.avaritia_advancement.title": "Greed is good",
+      "subtitles.sandryct_hit": "Sandryct Dust",
+      "advancements.better_armory_icon_adv.title": "Better Armory",
+      "item.better_armory_mod.endslash_sword": "Endslash",
+      "item.better_armory_mod.tecpatl_dagger": "Tecpatl",
+      "advancements.better_armory_icon_adv.descr": "Get all swords!",
+      "item.better_armory_mod.tidanir_sword": "Tidanir",
+      "item.better_armory_mod.souldread_sword": "Souldread",
+      "item.better_armory_mod.gilded_sword": "Gilded Sword",
+      "subtitles.tidanir_hit": "Tidanir Splash",
+      "advancements.avaritia_advancement.descr": "Trade with a weaponsmith for Avaritia",
+      "advancements.sandryct_advancement.title": "May i have some water",
+      "subtitles.spectra_hit": "Spectra Swing",
+      "subtitles.venossa_hit": "Venossa Spine",
+      "advancements.sword_fish_advancement.title": "Ehrm, what the fishy?",
+      "advancements.venossa_advancement.title": "Auch... It hurts!",
+      "item.better_armory_mod.icicle_sword": "Icicle",
+      "item.better_armory_mod.echo_sword": "Echo Sword",
+      "advancements.endslash_advancement.title": "The End blade",
+      "subtitles.freeze_hit": "Icicle hit",
+      "advancements.tidanir_advancement.title": "The Ocean King",
+      "advancements.icicle_advancement.title": "Cold Hands",
+      "advancements.echo_sword_avancement.descr": "Kill the Warden and get the Echo Sword",
+      "advancements.tidanir_advancement.descr": "Kill the Elder Guardian and get the Tidanir",
+      "item.better_armory_mod.dragon_flame_texture": "Dragon Flame Texture",
+      "item.better_armory_mod.avaritia_sword": "Avaritia",
+      "subtitles.dragonflame_hit": "Dragon Flame Explosion",
+      "advancements.icicle_advancement.descr": "Find the Icycle on the taiga biome",
+      "advancements.gilded_advancement.title": "Supreme Colonizer",
+      "item_group.better_armory_mod.better_armory_tab": "Better Armory",
+      "effect.better_armory_mod.echo_corruption": "Echo Corruption",
+      "advancements.echo_sword_avancement.title": "The voices in my head",
+      "item.better_armory_mod.radiance_sword": "Radiance",
+      "item.better_armory_mod.spear_fish": "Sword Fish",
+      "advancements.spectra_advancement.title": "The Soul Essence ",
+      "advancements.endslash_advancement.descr": "Kill the Ender Dragon and get the Endslash",
+      "advancements.spectra_advancement.descr": "Craft the Spectra",
+      "advancements.sword_fish_advancement.descr": "Fish a SwordFish",
+      "subtitles.radiance_hit": "Radiance Sparkle",
+      "advancements.venossa_advancement.descr": "Find the Venossa on the Jungle",
+      "item.better_armory_mod.better_armory_icon": "Better Armory Icon",
+      "subtitles.endslash_hit": "Endslash Impact",
+      "item.better_armory_mod.venossa_sword": "Venossa",
+      "advancements.sandryct_advancement.descr": "Find the Sandryct on the Desert",
+      "subtitles.ignitus_hit": "Ignitus Burn",
+      "item.better_armory_mod.ignitus_sword": "Ignitus",
+      "subtitles.swordfish_hit": "SwordFish Bubbles",
+      "advancements.gilded_advancement.descr": "Find the Gilded Sword in a Piglin Camp",
+      "item.better_armory_mod.spectra_sword": "Spectra",
+      "subtitles.echo_hit": "Echo Impact",
+      "item.better_armory_mod.sandryct_sword": "Sandryct",
+      "item.better_armory_mod.sonic_boom_texture": "Sonic Boom Texture"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Actions",
+        "children": []
+      },
+      {
+        "name": "Swords",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": [
+          {
+            "name": "Structures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crafting Recipes",
+        "children": []
+      },
+      {
+        "name": "Projectiles",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "better_armory_mod",
+    "modName": "Better Armory",
+    "version": "1.5",
+    "description": "This mod enhances vanilla by adding more unique swords!",
+    "author": "Seth09",
+    "websiteURL": "https://www.youtube.com/channel/UC0I_8QDbic9dMZ4F_OnM5MQ",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Thanks to MCreator and the forum people.",
+    "modElementsPackage": "net.setho.betterarmorymod"
+  },
+  "mcreatorVersion": 202400229712
+}
