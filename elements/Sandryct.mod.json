@@ -1,0 +1,40 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "sandryct",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Sandryct",
+    "specialInformation": {
+      "fixedValue": [
+        "When hitting levitates the target."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BetterArmoryTab"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 1.4,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 350,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "Sandryct_Hitting"
+    }
+  }
+}

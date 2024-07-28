@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "endslash",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Endslash",
+    "specialInformation": {
+      "fixedValue": [
+        "Shoots a dragon flame every 3 hits.",
+        "Dragon flames do 4 damage."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BetterArmoryTab"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 3000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.DRAGON_BREATH"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "Endslash_Hitting"
+    }
+  }
+}

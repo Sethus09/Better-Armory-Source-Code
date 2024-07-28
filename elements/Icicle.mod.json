@@ -1,0 +1,40 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "icicle",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Icicle",
+    "specialInformation": {
+      "fixedValue": [
+        "On hit freezes the target making them slower."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BetterArmoryTab"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 1.4,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 350,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IcicleHitting"
+    }
+  }
+}

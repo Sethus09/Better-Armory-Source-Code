@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:DragonFlameTexture"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 4.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "DragonFlame_HitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "DragonFlame_Hitting"
+    }
+  }
+}
